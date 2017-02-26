@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Argon2OptDll", "vs2015\Argo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Argon2RefDll", "vs2015\Argon2RefDll\Argon2RefDll.vcxproj", "{19D911A1-533C-4475-B313-F372481A35D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Argon2bOptDll", "vs2015\Argon2bOptDll\Argon2bOptDll.vcxproj", "{3A898DD8-ACAE-4269-ADFE-EB7260D71584}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -153,6 +155,18 @@ Global
 		{19D911A1-533C-4475-B313-F372481A35D4}.ReleaseStatic|x64.Build.0 = ReleaseStatic|x64
 		{19D911A1-533C-4475-B313-F372481A35D4}.ReleaseStatic|x86.ActiveCfg = ReleaseStatic|Win32
 		{19D911A1-533C-4475-B313-F372481A35D4}.ReleaseStatic|x86.Build.0 = ReleaseStatic|Win32
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.Debug|x64.ActiveCfg = Debug|x64
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.Debug|x64.Build.0 = Debug|x64
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.Debug|x86.Build.0 = Debug|Win32
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.Release|x64.ActiveCfg = Release|x64
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.Release|x64.Build.0 = Release|x64
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.Release|x86.ActiveCfg = Release|Win32
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.Release|x86.Build.0 = Release|Win32
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.ReleaseStatic|x64.ActiveCfg = ReleaseStatic|x64
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.ReleaseStatic|x64.Build.0 = ReleaseStatic|x64
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.ReleaseStatic|x86.ActiveCfg = ReleaseStatic|Win32
+		{3A898DD8-ACAE-4269-ADFE-EB7260D71584}.ReleaseStatic|x86.Build.0 = ReleaseStatic|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

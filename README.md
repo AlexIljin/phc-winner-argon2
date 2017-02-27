@@ -270,6 +270,15 @@ executed by running:
 
 `make test`
 
+## About this fork
+
+This fork was created by Alexander Ilin to export Blake2b API from the library.
+I wanted to use both Argon2 and Blake2b, and I didn't want to have an extra
+dependency, especially since all I need is already here. The library with the
+additional exports is called libargon2b (argon2b.dll on Windows).
+
+I also configured the Argon2b.dll to be built for compatibility with Windows XP.
+
 ## Intellectual property
 
 Except for the components listed below, the Argon2 code in this
